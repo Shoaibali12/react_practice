@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+
+:root {
+  --yellow: #f5c32c;
+  --black: #242d49;
+  --orange: #fca61f;
+  --gray: #788097;
+  --blueCard: #ddf8fe;
+  --purple: rgb(238 210 255);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --orangeCard: rgba(252 166 31 0.45);
+  --smBoxShadow: -79px 51px 60px rgba(0 0 0 0.08);
+}
+.child1 {
+  color: var(--black);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.name {
+  color: var(--orange);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.intro {
+  color: var(--gray);
+  font-size: 14px;
+  margin-top: 1rem;
+}
+.App {
+  padding: 0.5rem 3.5rem;
+  overflow: hidden;
+  color: var(--black);
+}
+
+.btn {
+  background-color: var(--orange);
+  padding: 5px 15px 5px 15px;
+  color: white;
+  border-radius: 20px;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid var(--yellow);
+}
+
+.right > ul > li:hover {
+  cursor: pointer;
+  color: var(--yellow);
+  font-size: large;
+  font-weight: bold;
+}
+
+.left > * {
+  position: absolute;
+  z-index: 1;
+}
+
+.floatingDiv {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  box-shadow: var(--boxShadow);
+  border-radius: 17px;
+  align-items: center;
+  padding: 0px 28px 0px 0px;
+  height: 4.5em;
+}
+
+.blur {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background-color: #edd0ff;
+  z-index: -9;
+  top: -18%;
+  left: 54%;
+  filter: blur(72px);
+}
+
+@tailwind utilities;
