@@ -7,13 +7,13 @@ import vec2 from "../img/Vector2.png";
 import FloatingDiv from "./FloatingDiv";
 import thumb from "../img/thumbup.png";
 import glassesimoji from "../img/glassesimoji.png";
-
 import crown from "../img/crown.png";
+
 export default function Intro() {
   return (
     <>
-      <div className="mt-16 flex-1 flex ">
-        <div className="right flex-1 flex flex-col gap-4">
+      <div className="mt-16 flex-1 flex h-screen">
+        <div className="right flex-1 flex flex-col   ">
           <span className="child1">Hi! I am</span>
           <span className=" name">Shoaib Ali</span>
           <span className="intro">
@@ -21,7 +21,7 @@ export default function Intro() {
             producing Quality work
           </span>
           <span>
-            <button className="btn font-bold">Hire me</button>
+            <button className="btn mt-7">Hire me</button>
           </span>
           <div className="flex gap-8 mt-10">
             <img src={gitImg} alt="img" className="w-8 h-8 cursor-pointer" />
