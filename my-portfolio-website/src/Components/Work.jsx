@@ -46,7 +46,7 @@ export default function Work() {
             className="blur scale-150 -left-8 top-16"
             style={{ backgroundColor: "rgba(234, 229, 236, 0.904)" }}
           ></div>
-          <div className="w-backcircle blue bg-blue-700 -top-8  left-40"></div>
+          <div className="w-backcircle blue bg-blue-700 -top-8  left-40 "></div>
           <div className="w-backcircle yellow bg-yellow-500 top-24 left-40"></div>
         </div>
       </div>
